@@ -1,0 +1,53 @@
+.user-profile-container {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+  background-color: #f7f9fc;
+}
+
+h1 {
+  color: #333;
+}
+
+.user-card {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 300px;
+  margin: 20px auto;
+}
+
+.user-avatar {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+h2 {
+  color: #333;
+}
+
+p {
+  font-size: 16px;
+  color: #555;
+}
+
+.fetch-button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.2s;
+}
+
+.fetch-button:hover {
+  background-color: #45a049;
+}
+
+.error {
+  color: red;
+}
